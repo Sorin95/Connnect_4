@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Menu">
+
+    <fragment
+        android:id="@+id/Menu"
+        android:name="com.example.connnect_4.Menu"
+        android:label="@string/menu_label"
+        tools:layout="@layout/menu_view">
+
+        <action
+            android:id="@+id/action_Menu_to_Game"
+            app:destination="@id/Game" />
+    </fragment>
+    <fragment
+        android:id="@+id/Game"
+        android:name="com.example.connnect_4.Game"
+        android:label="@string/game_label"
+        tools:layout="@layout/game_view">
+
+        <action
+            android:id="@+id/action_Game_to_Menu"
+            app:destination="@id/Menu" />
+    </fragment>
+</navigation>
