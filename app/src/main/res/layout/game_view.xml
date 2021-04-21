@@ -4,25 +4,369 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C69C27B0"
     tools:context=".Game">
-
-    <TextView
-        android:id="@+id/textview_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Here be game, soonTM"
-        app:layout_constraintBottom_toTopOf="@id/button_second"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="@string/previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableLayout
+        android:id="@+id/Game_board"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#9C27B0"
+        app:layout_constraintBottom_toTopOf="@+id/button_second"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_second" />
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Circle6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_colors" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Circle12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_colors" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle13"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle14"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle15"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle16"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle17"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Circle18"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_colors" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle19"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle20"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle21"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle22"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle23"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Circle24"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_colors" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle25"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle26"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle27"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle28"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle29"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Circle30"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_colors" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle31"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle32"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle33"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle34"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle35"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Circle36"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_colors" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle37"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:background="@drawable/button_colors"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle38"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle39"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle40"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/circle41"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/button_colors" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Circle42"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_colors"
+                />
+        </TableRow>
+
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.connnect_4;
+package com.example.Connnect4;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,6 +10,13 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 public class Game extends Fragment {
+
+//    int[][] mat = { { 0, 0, 0, 0, 0, 0, 0 },
+//                    { 0, 0, 0, 0, 0, 0, 0 },
+//                    { 0, 0, 0, 0, 0, 0, 0 },
+//                    { 0, 0, 0, 0, 0, 0, 0 },
+//                    { 0, 0, 0, 0, 0, 0, 0 },
+//                    { 0, 0, 0, 0, 0, 0, 0 },};
 
     @Override
     public View onCreateView(

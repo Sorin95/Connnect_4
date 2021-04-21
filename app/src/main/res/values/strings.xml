@@ -9,4 +9,11 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="button">Button</string>
+    <string name="textview_in_a_row">TextView in a row</string>
+    <string name="play">Play</string>
+    <string name="sing_in">Sing In</string>
+    <string name="default_web_client_id">460022415199-bam7kf7rpl0u81m4hgft8t9p53kqf5b8.apps.googleusercontent.com</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logout">Logout</string>
 </resources>
