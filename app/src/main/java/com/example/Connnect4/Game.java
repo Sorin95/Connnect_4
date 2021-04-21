@@ -16,7 +16,7 @@ public class Game extends Fragment {
 //                    { 0, 0, 0, 0, 0, 0, 0 },
 //                    { 0, 0, 0, 0, 0, 0, 0 },
 //                    { 0, 0, 0, 0, 0, 0, 0 },
-//                    { 0, 0, 0, 0, 0, 0, 0 },};
+//                    { 0, 0, 0, 0, 0, 0, 1 },};
 
     @Override
     public View onCreateView(

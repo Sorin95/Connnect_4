@@ -30,6 +30,10 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+/////
+/////  Tot spune ca nu gaseste client, si ar fi manifestul de vina...
+/////
+
 public class MainActivity extends AppCompatActivity {
 
     private static final int RC_SIGN_IN = 327 ;
