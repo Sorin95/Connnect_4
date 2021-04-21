@@ -1,4 +1,4 @@
-package com.example.connnect_4;
+package com.example.Connnect4;
 
 import android.content.Context;
 
